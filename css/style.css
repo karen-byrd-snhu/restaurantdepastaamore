@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "KlinicSlab-Bold";
+  src: url("./fonts/klinicslabbold-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KlinicSlab-BoldIt";
+  src: url("./fonts/klinicslabboldit-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KlinicSlab-Book";
+  src: url("./fonts/klinicslabbook-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KlinicSlab-BookIt";
+  src: url("./fonts/klinicslabbookit-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KlinicSlab-Meduim";
+  src: url("./fonts/klinicslabmedium-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KlinicSlab-MediumIt";
+  src: url("./fonts/klinicslabmediumit-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GoudyOldStyle";
+  src: url("./fonts/goudos-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GoudyOldStyle-It";
+  src: url("./fonts/goudosi-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GoudyOldStyle-Bold";
+  src: url("./fonts/goudosb-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
