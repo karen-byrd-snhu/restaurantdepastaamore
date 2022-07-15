@@ -180,11 +180,12 @@
 }
 
 .title-family {
-  color:#cf1c44;
+  color:#0b9446;
   font-family:"KlinicSlab-Bold";
   padding-bottom: 2rem;
   font-size: 2rem;
   text-align: center;
+  padding-top: 2rem;
   z-index: 999;
 }
 
