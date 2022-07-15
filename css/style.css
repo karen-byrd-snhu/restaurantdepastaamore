@@ -124,6 +124,7 @@
 .logo {
   height: 9rem;
   margin-left: 1rem;
+  z-index: 999;
 }
 
 /* Title */
@@ -136,6 +137,67 @@
   padding-bottom: 1rem;
 }
 
+/* index.html pictures */
+.images-restaurants {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pleasanton-container,
+.smithson-container {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.img-title-p,
+.img-title-sv {
+  color: #0b9446;
+  font-family: "KlinicSlab-Book";
+  font-weight: 600;
+  position: absolute;
+  top: 23rem;
+  right: 12rem;
+  font-size: 3rem;
+  text-shadow: 2px 2px 3px #fff;
+}
+
+/* about page */
+#about {
+  position: relative;
+  width: 100%;
+  height: 30rem;
+}
+#about::before {
+  content: "";
+  background-image: url(../images/groupEating.jpeg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: .4;
+}
+
+.title-family {
+  color:#cf1c44;
+  font-family:"KlinicSlab-Bold";
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  z-index: 999;
+}
+
+.family {
+  color:#0b9446;
+  font-family: "KlinicSlab-Book";
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 3rem;
+  z-index: 999;
+  text-align: center;
+}
+
 /* Footer */
 #footer-container {
   background-color: #543136;
@@ -144,7 +206,8 @@
   padding: 2rem;
 }
 
-.create,.contact {
+.create,
+.contact {
   font-family: "KlinicSlab-Medium";
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
