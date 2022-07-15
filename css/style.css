@@ -1,3 +1,5 @@
+/* Font types */
+
 @font-face {
   font-family: "KlinicSlab-Bold";
   src: url("./fonts/klinicslabbold-webfont.woff") format("woff");
@@ -68,4 +70,81 @@
   font-weight: 900;
   font-style: normal;
   font-display: swap;
+}
+
+/* Navigation Style */
+
+.nav {
+  position: relative;
+  height: 11.5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav::before {
+  content: "";
+  background-image: url("../images/typesOfPasta.jpeg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 999;
+}
+.navigation-list {
+  display: flex;
+}
+
+.navigation-items {
+  padding-right: 1.5rem;
+  font-family: "KlinicSlab-Book";
+  font-size: 30px;
+}
+
+.navigation-items a {
+  font-family: "KlinicSlab-Bold";
+  color: #cf1c44;
+  text-decoration: none;
+}
+
+.navigation-items a:hover {
+  color: #0b9446;
+}
+
+.logo {
+  height: 9rem;
+  margin-left: 1rem;
+}
+
+/* Title */
+.name {
+  font-family: "KlinicSlab-Bold";
+  font-size: 60px;
+  color: #cf1c44;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+/* Footer */
+#footer-container {
+  background-color: #543136;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+.create,.contact {
+  font-family: "KlinicSlab-Medium";
+  margin-bottom: .5rem;
 }
