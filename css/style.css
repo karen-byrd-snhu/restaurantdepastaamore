@@ -76,10 +76,9 @@ body {
   background-color: #cf1c44;
 }
 
-
 /* navigation */
 
-#head{
+#head {
   background-color: #d8c6b8;
 }
 
@@ -152,7 +151,7 @@ body {
 .hours {
   background-color: #d8c6b8;
   text-align: center;
-  letter-spacing: .25rem;
+  letter-spacing: 0.25rem;
   line-height: 2.5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -182,7 +181,6 @@ body {
   font-family: "KlinicSlab-Bold";
   font-size: 1.25rem;
   text-transform: uppercase;
-
 }
 
 .ptown {
@@ -278,7 +276,7 @@ body {
 
 .mission,
 .vision {
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
   font-family: "KlinicSlab-BoldIt";
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
@@ -299,10 +297,8 @@ body {
 .p1,
 .p2,
 .p3 {
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
 }
-
-
 
 /* footer */
 #footer-container {
@@ -314,11 +310,10 @@ body {
   text-align: center;
 }
 
-
 .fb,
 .insta {
   padding-right: 3rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .links {
@@ -327,7 +322,7 @@ body {
 
 .contact a,
 .email a {
-  color:#d8c6b8;
+  color: #d8c6b8;
   text-decoration: none;
   font-family: "KlinicSlab-Book";
 }
@@ -339,7 +334,7 @@ body {
 
 .contact,
 .email {
- margin: 1.25rem auto;
+  margin: 1.25rem auto;
 }
 
 .create,
@@ -347,7 +342,6 @@ body {
   font-family: "KlinicSlab-Medium";
   margin-bottom: 0.5rem;
 }
-
 
 /* contact.html */
 
@@ -369,11 +363,24 @@ body {
 }
 
 .required {
-  color:#543136;
+  color: #543136;
   margin-top: 3rem;
   margin-bottom: 3rem;
   text-align: center;
   font-family: "KlinicSlab-Bold";
+}
+
+.help {
+  font-family: "KlinicSlab-Bold";
+  font-size: 1.5rem;
+  text-align: center;
+  color: #543136;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.help-title {
+  text-transform: uppercase;
 }
 
 #name,
@@ -381,10 +388,10 @@ body {
 #email,
 #phone,
 #message {
-  border:1px solid #cf1c44;
+  border: 1px solid #cf1c44;
   border-radius: 5px;
-  padding: .75rem;
-  margin-bottom: .5rem;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
   width: 18rem;
   background-color: #f3e9e1;
 }
@@ -401,11 +408,23 @@ label {
   color: #543136;
 }
 
-input[type="radio"]{
-  appearance: none;
-  border: 1px solid #cf1c44;
-  border-radius: 50%;
-  background-clip: content-box;
-  padding: 3px;
+input[name="buttons"] {
+  accent-color: #0b9446;
 }
 
+.button-labels {
+  color: #cf1c44;
+}
+
+.radio-container {
+  margin-bottom: 1.5rem;
+}
+
+#submit {
+  border: 2px solid #cf1c44;
+  background-color: #0b9446;
+  padding: 10px 2rem;
+  position: relative;
+  bottom: 2rem;
+  left: 5rem;
+}

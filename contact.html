@@ -60,7 +60,8 @@
         <!-- email form will be for both locations -->
         <!-- creates getting information from the sender -->
         <div class="form-infomation">
-        <h2 class="help">How may we be of service?  Whatever you want to tell us please do, we love adverture in out messages.</h2>
+        <h2 class="help help-title">How may we be of service?</h2> 
+        <h2 class="help">  Whatever you want to tell us please do, we love adverture the messages.</h2>
         <!-- use of form to gather informaion -->
         <form action="" method="get" autocomplete="on">
             <label for="name">Name*</label><br/>
@@ -70,18 +71,23 @@
             <input type="email" id="email" name="email" placeholder="email@emailprovider.com" required><br/>
             <label for="reason">Phone</label><br/>
             <input type="text" id="phone" name="phone" placeholder="1234567890"><br/>
+            <label for="radio">Type of Inquire*</label><br /><br/>
             <div class="radio-container">
-                <label for="radio">Type of Inquire*</label><br/>
-                <input type="radio" id="feedback" name="feedback" value="feedback">
-                <label for="feedback">Feedback</label><br/>
-                <input type="radio" id="classes" name="classes" value="classes">
-                <label for="classes">Cooking Classes</label><br/>
-                <input type="radio" id="community" name="community" value="community">
-                <label for="community">Community Support</label><br/>
-                <input type="radio" id="questions" name="questions" value="questions">
-                <label for="questions">Questions</label><br/>
-                <input type="radio" id="careers" name="careers" value="careers">
-                <label for="careers">Careers</label><br/>
+                <input type="radio" id="feedback" name="buttons" value="feedback">
+                <label for="feedback" class="button-labels
+                ">Feedback</label><br/>
+                <input type="radio" id="classes" name="buttons" value="classes">
+                <label for="classes" class="button-labels
+                ">Cooking Classes</label><br/>
+                <input type="radio" id="community" name="buttons" value="community">
+                <label for="community" class="button-labels
+                ">Community Support</label><br/>
+                <input type="radio" id="questions" name="buttons" value="questions">
+                <label for="questions" class="button-labels
+                ">Questions</label><br/>
+                <input type="radio" id="careers" name="buttons" value="careers">
+                <label for="careers" class="button-labels
+                ">Careers</label><br/>
             </div>
             
             <label for="messgae">Message*</label><br/>
