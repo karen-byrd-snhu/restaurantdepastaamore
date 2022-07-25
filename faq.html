@@ -34,9 +34,9 @@
 
 <body>
     <!-- header includes the top portion of the page. it consists of the navigation menu and will be place on each page for consistency-->
-    <header id="header">
+    <header id="head">
         <div class="nav">
-            <img src="./images/PASTAAMORE_logo.png" alt="Pasta Amore Logo" width="300">
+            <img src="./images/PASTAAMORE_logo.png" alt="Pasta Amore Logo" width="300" class="logo">
             <!-- Navigation Bar controls how the user gets around the site.  I have demonstrated it will have 4 pages with different content on each one.-->
             <nav class="navigation">
                 <ul class="navigation-list">
@@ -44,7 +44,6 @@
                     <li class="navigation-items"><a href="./about.html">About</a></li>
                     <li class="navigation-items"><a href="./menu.html">Menu</a></li>
                     <li class="navigation-items"><a href="./news.html">News</a></li>
-                    <li class="navigation-items"><a href="./location.html">Locations</a></li>
                     <li class="navigation-items"><a href="./contact.html">Contact Us</a></li>
                     <li class="navigation-items"><a href="#">FAQ</a></li>
                 </ul>
@@ -77,9 +76,16 @@
 
     <!-- footer for who creating the website -->
     <footer id="footer-container">
-        <h6 class="create">Karen Byrd GRA-310 SNHU</h6>
-        <h6 class="contact">karen.byrd2@snhu.edu</h6>
-
+        <div class="social">
+            <a href="http://www.facebook.com"><img src="./images/facebook.svg" alt="facebook logo" class="fb"></a>
+            <a href="http://www.instagram.com"><img src="./images/instagram.svg" alt="instagram logo" class="insta"></a>
+        </div>
+    
+        <div class="links">
+            <h6 class="contact"><a href="./contact.html">contact us</a></h6>
+            <h6 class="email"> <a href="./email_signup.com">email sign-up</a></h6>
+        </div>
+    
     </footer>
 
 </body>

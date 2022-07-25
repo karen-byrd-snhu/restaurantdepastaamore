@@ -34,7 +34,7 @@
 
 <body>
     <!-- header includes the top portion of the page. it consists of the navigation menu and will be place on each page for consistency-->
-    <header id="header">
+    <header id="head">
 
         <div class="nav">
             <img src="./images/PASTAAMORE_logo.png" alt="Pasta Amore Logo" width="300" class="logo">
@@ -45,7 +45,6 @@
                     <li class="navigation-items"><a href="./about.html">About</a></li>
                     <li class="navigation-items"><a href="./menu.html">Menu</a></li>
                     <li class="navigation-items"><a href="./news.html">News</a></li>
-                    <li class="navigation-items"><a href="./location.html">Locations</a></li>
                     <li class="navigation-items"><a href="./contact.html">Contact Us</a></li>
                     <li class="navigation-items"><a href="./faq.html">FAQ</a></li>
                 </ul>
@@ -55,31 +54,25 @@
 
 
     <h1 class="name">Restaurantè de Pasta Ammorè</h1>
-    <aside class="deals">
-        <!-- carousel of daily specials-->
-    </aside>
+ 
+    <main class="hours">
+        <section class="ptown">
+            <h3 class="ptown-title">Pleasanton</h3>
+            <h5 class="ptown-address">888 Main St Pleasanton, TX 78064</h5>
+            <h5 class="phone">830.555.8888</h5>
+            <p class="days">Tuesday | Wednesday | Thursday | Sunday: 11:00 AM - 9:00 PM</p>
+            <p class="days">Friday | Saturday: 11:00 AM - 10:30 PM</p>
+            <p class="days">Closed: Monday</p>
+        </section>
 
-    <aside class="newletter">
-        <!-- card for newsletter signup -->
-    </aside>
-
-    <aside class="celebration">
-        <!-- carousel of celebration pictures -->
-    </aside>
-
-    <!-- add images to index for landing page -->
-
-    <main class="images-restaurants">
-        <!-- pleasanton store front -->
-        <div class="pleasanton-container">
-            <img src="./images/p-image.png" alt="front of building" id="pleasanton-img" width="633">
-            <h3 class="img-title-p">Pleasanton</h3>
-        </div>
-        <!-- smithson valley store front -->
-        <div class="smithson-container">
-            <img src="./images/sv-image.png" alt="front of building" id="smithson" width="650">
-            <h3 class="img-title-sv">Smithson Valley</h3>
-        </div>
+        <section class="svtown">
+            <h3 class="svtown-title">Smithson Valley</h3>
+            <h5 class="svtown-address">123 Hwy 46 Canyon Lake, TX 78133</h5>
+            <h5 class="phone">830.444.0123</h5>
+            <p class="days">Wednesday | Thursday | Sunday: 11:00 AM - 8:30 PM</p>
+            <p class="days">Friday | Saturday: 11:00 AM - 9:30 PM</p>
+            <p class="days">Closed: Monday and Tuesday</p>
+        </section>
     </main>
 
 
@@ -88,8 +81,16 @@
 
     <!-- footer for who creating the website -->
     <footer id="footer-container">
-        <h6 class="create">Karen Byrd GRA-310 SNHU</h6>
-        <h6 class="contact">karen.byrd2@snhu.edu</h6>
+        <div class="social">
+            <a href="http://www.facebook.com"><img src="./images/facebook.svg" alt="facebook logo" class="fb"></a>
+            <a href="http://www.instagram.com"><img src="./images/instagram.svg" alt="instagram logo" class="insta"></a>
+        </div>
+
+        <div class="links">
+            <h6 class="contact"><a href="./contact.html">contact us</a></h6>
+            <h6 class="email"> <a href="./email_signup.com">email sign-up</a></h6>
+        </div>
+
     </footer>
 </body>
 

@@ -34,9 +34,9 @@
 
 <body>
     <!-- header includes the top portion of the page. it consists of the navigation menu and will be place on each page for consistency-->
-    <header id="header">
+    <header id="head">
         <div class="nav">
-            <img src="./images/PASTAAMORE_logo.png" alt="Pasta Amore Logo" width="300">
+            <img src="./images/PASTAAMORE_logo.png" alt="Pasta Amore Logo" width="300" class="logo">
             <!-- Navigation Bar controls how the user gets around the site.  I have demonstrated it will have 4 pages with different content on each one.-->
             <nav class="navigation">
                 <ul class="navigation-list">
@@ -44,7 +44,6 @@
                     <li class="navigation-items"><a href="#">About</a></li>
                     <li class="navigation-items"><a href="./menu.html">Menu</a></li>
                     <li class="navigation-items"><a href="./news.html">News</a></li>
-                    <li class="navigation-items"><a href="./location.html">Locations</a></li>
                     <li class="navigation-items"><a href="./contact.html">Contact Us</a></li>
                     <li class="navigation-items"><a href="./faq.html">FAQ</a></li>
                 </ul>
@@ -59,15 +58,17 @@
     <!-- gives a bit of information about the restaurants -->
     <main id="about">
         <h1 class="title-family">Prima la Famiglia</h1>
-        <p class="family">At Pasta Amoré, we know life is always better with family. Our family has inspired upscale
+        <p class="family">At Pasta Amoré, we know  life is always better with family. Our     family has inspired upscale
             authentic Italian dishes. Many generation have brought about bona fide, delicate, and, refreshing flavors of
-            old school meals. We like to put American in our Ialian inspired culture.</p>
+            old school meals. We like to put American in our Ialian inspired culture
+        </p>
     </main>
 
     <!-- mission statement  declares the mission of the company. using section instead of div because it allows me to know it's a section of information and not a random div -->
+    <div class="miss-vis-container">
     <section id="mission">
         <h2 class="mission">Our Mission</h2>
-        <p class="mission">
+        <p class="mission-statement">
         <blockquote>
             To provide a warm atmosphere for your family where we
             can share the traditional cuisines of Italy. Our food will
@@ -80,28 +81,36 @@
     <section id="vision">
         <h2 class="vision">Our Vision</h2>
         <blockquote>
-            <p class="vision-statement">
+            <p class="vision-statement p1">
                 Pasta Amore combines the cooking traditions and ingredients of Italy with creativity, providing a modern
                 twist on timeless classics.
             </p>
-            <p class="vision-statement">
+            <p class="vision-statement p2">
                 Our vision for the future is to grow and learn along with our customers. In doing so, we aim to provide
                 an atmosphere that enables this
                 growth and fuels the passion that lives within the essence of the brand.
             </p>
-            <p class="vision-statement">
+            <p class="vision-statement p3">
                 The approach of Pasta Amore is to develop our brand with the understanding of both our culture and
                 consumer insights. Within our vision always lives the promise of inspiring
                 creativity, conversation and quality.
             </p>
         </blockquote>
     </section>
+    </div>
 
     <!-- footer for who creating the website -->
     <footer id="footer-container">
-        <h6 class="create">Karen Byrd GRA-310 SNHU</h6>
-        <h6 class="contact">karen.byrd2@snhu.edu</h6>
-
+    <div class="social">
+        <a href="http://www.facebook.com"><img src="./images/facebook.svg" alt="facebook logo" class="fb"></a>
+        <a href="http://www.instagram.com"><img src="./images/instagram.svg" alt="instagram logo" class="insta"></a>
+    </div>
+    
+        <div class="links">
+            <h6 class="contact"><a href="./contact.html">contact us</a></h6>
+            <h6 class="email"> <a href="./email_signup.com">email sign-up</a></h6>
+        </div>
+    
     </footer>
 
 </body>
