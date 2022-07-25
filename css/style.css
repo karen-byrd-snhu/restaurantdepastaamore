@@ -330,6 +330,7 @@ body {
 .fb,
 .insta {
   padding-right: 3rem;
+  margin-top: .5rem;
 }
 
 .links {
@@ -350,7 +351,7 @@ body {
 
 .contact,
 .email {
-  margin: auto;
+ margin: 1.25rem auto;
 }
 
 .create,
