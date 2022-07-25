@@ -89,7 +89,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .nav::before {
@@ -145,6 +145,7 @@ body {
   text-align: center;
   padding-top: 5rem;
   padding-bottom: 1rem;
+  margin-bottom: 5rem;
 }
 
 /* index.html  */
@@ -193,7 +194,15 @@ body {
   padding-top: 3rem;
 }
 
-.img-title-p,
+.tomato {
+  position: relative;
+  bottom: 15rem;
+  left: 75rem;
+  width: 15%;
+  transform: rotate(-45deg);
+}
+
+/* .img-title-p,
 .img-title-sv {
   color: #0b9446;
   font-family: "KlinicSlab-Book";
@@ -203,7 +212,7 @@ body {
   right: 12rem;
   font-size: 3rem;
   text-shadow: 2px 2px 3px #fff;
-}
+} */
 
 /* about page */
 #about {
@@ -253,10 +262,17 @@ body {
   text-shadow: 1px 1px 1px #cf1c44;
 }
 
+.p-town,
+.sv-town {
+  box-shadow: 2px 2px 3px #543136;
+  margin-bottom: 1rem;
+}
+
 .miss-vis-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5rem;
+  margin-bottom: 3rem;
 }
 
 #mission,
@@ -275,16 +291,21 @@ body {
 .mission,
 .vision {
   letter-spacing: .5rem;
-  font-family: "KlinicSlab-Bold";
-  font-size: 1.5rem;
+  font-family: "KlinicSlab-BoldIt";
+  font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
 
 .mission-statement,
 .vision-statement {
-  font-family: "KlinicSlab-Medium";
+  font-family: "KlinicSlab-BookIt";
   width: 80%;
-  margin: 0 auto;
+  margin: 2rem auto;
+  font-size: 1.75rem;
+}
+
+.mission-statement {
+  margin-top: 13rem;
 }
 
 .p1,
@@ -303,12 +324,8 @@ body {
   background-color: #543136;
   color: #d8c6b8;
   text-align: center;
-  margin-top: 8rem;
 }
 
-.social {
-  margin: auto;
-}
 
 .fb,
 .insta {
@@ -333,9 +350,7 @@ body {
 
 .contact,
 .email {
-  padding: 3rem;
-  justify-items: center;
-  
+  margin: auto;
 }
 
 .create,
