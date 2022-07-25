@@ -421,7 +421,8 @@ input[name="buttons"] {
 }
 
 #submit {
-  border: 2px solid #cf1c44;
+  border: none;
+  box-shadow: 1px 1px 2px #cf1c44;
   background-color: #0b9446;
   padding: 10px 2rem;
   position: relative;
