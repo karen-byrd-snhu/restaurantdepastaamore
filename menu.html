@@ -24,7 +24,7 @@
     <!-- css stylesheets -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    
+
 
     <!-- page title -->
     <title>Pasta Amorè-Menu</title>
@@ -51,74 +51,112 @@
         </div>
     </header>
 
+    <h1 class="name">Restaurantè de Pasta Ammorè</h1>
+
     <!-- list for menu items in different containers so i can style them. I just want to have the content entered. Not 100% what it will look like. Will add pictures but need to work out the design before I enter them.-->
     <main id="menu">
         <!-- appetizer offered -->
-        <h3 class="title">Appetizer</h3>
-        <ul class="container-appetizer">
-            <li class="appetizer-items">Fried Mozzarella</li>
-            <li class="appetizer-items">Bruschetta</li>
-            <img src="./images/bruschetta.jpeg" alt="Bruschetta" class="brusc" width="100">
-            <li class="appetizer-items">Toasted Ravello</li>
-            <img src="./images/toastedRavioli.jpeg" alt="Toasted Ravioli" class="rav" width="100">
-            <li class="appetizer-items">Cheese Bread</li>
-            <li class="appetizer-items">Garlic Bread</li>
-        </ul>
+        <section class="appetizer">
+            <h3 class="title">Appetizer</h3>
+            <div class="container-appetizer">
+                <img src="./images/menu-items/mozz.jpg" alt="Fried Mozzarella" class="mozz" width="300">
+                <p class="appetizer-items">Fried Mozzarella</p>
+                <img src="./images/menu-items/bruschetta.jpeg" alt="Bruschetta" class="brusc" width="300">
+                <p class="appetizer-items">Bruschetta</p>
+                <img src="./images/menu-items/toastedRavioli.jpeg" alt="Toasted Ravioli" class="rav" width="300">
+                <p class="appetizer-items">Toasted Ravello</p>
+                <img src="./images/menu-items/garlicBread.jpg" alt="" class="garlic" width="300">
+                <p class="appetizer-items">Garlic Bread</p>
+            </div>
+        </section>
 
         <!-- salads offered -->
-        <h3 class="title">Salad</h3>
-        <ul class="container-salad">
-            <li class="salad-item">Pasta Salad with Chicken</li>
-            <li class="salad-item">Pasta Salad with Veggies</li>
-            <img src="./images/pastaSalad.jpeg" alt="Pasta Salad" class="pasta-veg" width="100">
-            <li class="salad-item">Caprese Salad</li>
-            <li class="salad-item">Italian House Salad</li>
-            <li class="salad-item">Caesar Salad</li>
-        </ul>
+        <section class="salad">
+            <h3 class="title">Salad</h3>
+            <div class="container-salad">
+                <img src="./images/menu-items/chicPastaSalad.jpg" alt="Pasta Chicken Salad" class="salad-img
+                " width="300">
+                <p class="salad-item">Pasta Salad with Chicken</p>
+                <img src="./images/menu-items/pastaSalad.jpeg" alt="Pasta Salad" class="salad-img
+                " width="300">
+                <p class="salad-item">Pasta Salad with Veggies</p>
+                <img src="./images/menu-items/capri.jpg" alt="Caprese Salad" class="salad-img
+                " width="300">
+                <p class="salad-item">Caprese Salad</p>
+                <img src="./images/menu-items/houseSalad.jpg" alt="House Salad" class="salad-img
+                " width="300">
+                <p class="salad-item">Italian House Salad</p>
+                <img src="./images/menu-items/caesarSalad.jpg" alt="Ceasar Salad" class="salad-img
+                " width="300">
+                <p class="salad-item">Caesar Salad</p>
+            </div>
+        </section>
 
         <!-- soups offered -->
-        <h3 class="title">Soup</h3>
-        <ul class="container-soup">
-            <li class="soup-items">Spezzatino</li>
-            <li class="soup-items">Ribollita</li>
-            <li class="soup-items">Minestrone</li>
-            <img src="./images/minestrone.jpg" alt="Bowl of Minestrone" class="minestrone" width="100">
-            <li class="soup-items">Fagioli</li>
-        </ul>
+        <section class="soup">
+            <h3 class="title">Soup</h3>
+            <div class="container-soup">
+                <img src="./images/menu-items/spezz.jpg" alt="Spezzatino Soup" class="soup-img" width="300">
+                <p class="soup-items">Spezzatino</p>
+                <img src="./images/menu-items/Ribollita.jpg" alt="Ribollita Soup" class="soup-img" width="300">
+                <p class="soup-items">Ribollita</p>
+                <img src="./images/menu-items/minestrone.jpg" alt="Minestrone Soup" class="soup-img" width="300">
+                <p class="soup-items">Minestrone</p>
+                <img src="./images/menu-items/fagoli.jpg" alt="Fagioli Soup" class="soup-img" width="300">
+                <p class="soup-items">Fagioli</p>
+            </div>
+        </section>
+
 
         <!-- entrees offered -->
-        <h3 class="title">Entrée</h3>
-        <ul class="container-entree">
-            <li class="entree-items">Spaghetti</li>
-            <img src="./images/spaghetti.jpeg" alt="Plate of Spaghetti" class="spagh" width="100">
-            <li class="entree-items">Gnocchi</li>
-            <li class="entree-items">Lasagna</li>
-            <img src="./images/lasagna.jpeg" alt="Lasagna" class="lasagna" width="100">
-            <li class="entree-items">Ravioli</li>
-            <li class="entree-items">Panzerotto Fritto</li>
-            <li class="entree-items">Pizza</li>
-            <li class="entree-items">Fiorentina</li>
-            <li class="entree-items">Chicken Parmesan</li>
-            <img src="./images/cknParmesan.jpeg" alt="Chicken Parmesan" class="chic-parm" width="100">
-            <li class="entree-items">Eggplant Parmesan</li>
-            <li class="entree-items">Meatballs</li>
-            <li class="entree-items">Linguine Alfredo</li>
-            <img src="./images/alfredo.jpeg" alt="Bowl of Alfredo" class="alfredo" width="100">
-            <li class="entree-items">Sicilian-Style Steak</li>
-        </ul>
-
+        <section class="entree">
+            <h3 class="title">Entrée</h3>
+            <div class="container-entree">
+                <img src="./images/menu-items/spaghetti.jpeg" alt="Spaghetti" class="entree-img" width="300">
+                <p class="entree-items">Spaghetti</p>
+                <img src="./images/menu-items/gnoi.jpg" alt="Gnocci" class="entree-img" width="300">
+                <p class="entree-items">Gnocchi</p>
+                <img src="./images/menu-items/lasagna.jpeg" alt="Lasagna" class="entree-img" width="300">
+                <p class="entree-items">Lasagna</p>
+                <img src="./images/menu-items/ravioli.jpg" alt="" class="entree-img" width="300">
+                <p class="entree-items">Ravioli</p>
+                <img src="./images/menu-items/panzerotto.jpg" alt="Panzerotto" class="entree-img" width="300">
+                <p class="entree-items">Panzerotto Fritto</p>
+                <img src="./images/menu-items/pizza.jpg" alt="Pizza" class="entree-img" width="300">
+                <p class="entree-items">Pizza</p>
+                <img src="./images/menu-items/Florentine-steak.jpg" alt="" class="entree-img" width="300">
+                <p class="entree-items">Fiorentina</p>
+                <img src="./images/menu-items/cknParmesan.jpeg" alt="Chicken Parmesan" class="entree-img" width="300">
+                <p class="entree-items">Chicken Parmesan</p>
+                <img src="./images/menu-items/eggplant.jpg" alt="Eggplant Parmesan" class="entree-img" width="300">
+                <p class="entree-items">Eggplant Parmesan</p>
+                <img src="./images/menu-items/meatball.jpg" alt="Meatballs" class="entree-img" width="300">
+                <p class="entree-items">Meatballs</p>
+                <img src="./images/menu-items/alfredo.jpeg" alt="Bowl of Alfredo" class="entree-img" width="300">
+                <p class="entree-items">Linguine Alfredo</p>
+                <img src="./images/menu-items/Sicilian-Style-Steak.jpg" alt="Sicilian Steak" class="entree-img"
+                    width="300">
+                <p class="entree-items">Sicilian-Style Steak</p>
+            </div>
+        </section>
         <!-- desserts offered -->
-        <h3 class="title">Dessert</h3>
-        <ul class="container-dessert">
-            <li class="dessert-items">Tiramisu</li>
-            <li class="dessert-items">Cannoli</li>
-            <img src="./images/cannoli.jpg" alt="Chocolate Cannoli" class="cannoli" width="100">
-            <li class="dessert-items">Panna Cotta</li>
-            <li class="dessert-items">Gelato</li>
-            <img src="./images/gelato.jpg" alt="Gelato" class="gelato" width="100">
-            <li class="dessert-items">Affogato</li>
-            <li class="dessert-items">Limoncello</li>
-        </ul>
+        <section class="dessert">
+            <h3 class="title">Dessert</h3>
+            <div class="container-dessert">
+                <img src="./images/menu-items/tiramisu.jpg" alt="Tiramisu" class="dessert-img" width="300">
+                <p class="dessert-items">Tiramisu</p>
+                <img src="./images/menu-items/cannoli.jpg" alt="Chocolate Cannoli" class="dessert-img" height="300">
+                <p class="dessert-items">Cannoli</p>
+                <img src="./images/menu-items/panna.jpg" alt="Panna Cotta" class="dessert-img" width="300">
+                <p class="dessert-items">Panna Cotta</p>
+                <img src="./images/menu-items/gelato1.jpeg" alt="Gelato" class="dessert-img" width="300">
+                <p class="dessert-items">Gelato</p>
+                <img src="./images/menu-items/affogato.jpg" alt="Affogato" class="dessert-img" width="300">
+                <p class="dessert-items">Affogato</p>
+                <img src="./images/menu-items/limoncello.jpg" alt="Limoncello" class="desset-img" width="300">
+                <p class="dessert-items">Limoncello</p>
+            </div>
+        </section>
     </main>
 
     <!-- footer for who creating the website -->
@@ -129,12 +167,12 @@
             <a href="http://www.instagram.com"><img src="./images/instagram.svg" alt="instagram logo" class="insta"
                     width="40"></a>
         </div>
-    
+
         <div class="links">
             <h6 class="contact"><a href="./contact.html">contact us</a></h6>
             <h6 class="email"> <a href="./email_signup.com">email sign-up</a></h6>
         </div>
-    
+
     </footer>
 </body>
 

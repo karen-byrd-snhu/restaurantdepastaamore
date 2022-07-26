@@ -74,6 +74,8 @@
 
 body {
   background-color: #cf1c44;
+  font-family: "KlinicSlab-Book";
+  color: #5e1211;
 }
 
 /* navigation */
@@ -142,6 +144,7 @@ body {
   font-size: 60px;
   color: #0b9446;
   text-align: center;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
   padding-top: 5rem;
   padding-bottom: 1rem;
   margin-bottom: 5rem;
@@ -264,7 +267,7 @@ body {
 
 .p-town,
 .sv-town {
-  box-shadow: 2px 2px 3px #543136;
+  box-shadow: 2px 2px 3px rgb(0, 0, 0);
   margin-bottom: 1rem;
 }
 
@@ -278,7 +281,6 @@ body {
 #mission,
 #vision {
   background-color: #d8c6b8;
-  color: #543136;
   text-align: center;
   padding: 2rem 2rem;
   width: 80%;
@@ -390,7 +392,6 @@ body {
 }
 
 .required {
-  color: #543136;
   margin-top: 3rem;
   margin-bottom: 3rem;
   text-align: center;
@@ -401,7 +402,6 @@ body {
   font-family: "KlinicSlab-Bold";
   font-size: 1.5rem;
   text-align: center;
-  color: #543136;
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
@@ -432,7 +432,6 @@ textarea {
 
 label {
   font-family: "KlinicSlab-Medium";
-  color: #543136;
 }
 
 input[name="buttons"] {
@@ -468,7 +467,6 @@ input[name="buttons"] {
   width: 60%;
   margin: 2rem auto;
   padding: 2rem;
-  color: #543136;
 }
 
 .restaurant-title,
@@ -522,4 +520,27 @@ input[name="buttons"] {
 .dropdown-event:hover .gluten-dropdown {
   display: block;
   padding: 2rem;
+}
+
+/* ********* */
+/* menu.html */
+/* ********* */
+
+.appetizer,
+.salad,
+.soup,
+.entree,
+.dessert {
+  background-color: #d8c6b8;
+  width: 50%;
+  margin: 2rem auto;
+  padding: .5rem;
+}
+
+.title {
+  font-family: "KlinicSlab-Bold";
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #5e1211;
 }
