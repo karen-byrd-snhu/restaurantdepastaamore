@@ -200,7 +200,27 @@ body {
   bottom: 15rem;
   left: 75rem;
   width: 15%;
-  transform: rotate(-45deg);
+  animation-name: tomato-rotate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tomato-rotate {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 /* ********** */
@@ -236,7 +256,7 @@ body {
   left: 30rem;
   padding-top: 2rem;
   z-index: 999;
-  text-shadow: 1px 1px 1px #cf1c44;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 .family {
@@ -251,7 +271,7 @@ body {
   z-index: 999;
   width: 75%;
   margin: 0 auto;
-  text-shadow: 1px 1px 1px #cf1c44;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 .p-town,
@@ -366,7 +386,27 @@ body {
 
 .tomato-logo {
   position: relative;
-  transform: rotate(-45deg);
+  animation-name: tomato-rotate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tomato-rotate {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .logo-required {
@@ -507,5 +547,3 @@ input[name="buttons"] {
   display: block;
   padding: 2rem;
 }
-
-
