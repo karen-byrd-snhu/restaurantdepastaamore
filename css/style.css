@@ -201,25 +201,14 @@ body {
   left: 75rem;
   width: 15%;
   animation-name: tomato-rotate;
-  animation-duration: 4s;
+  animation-duration: 1.5s;
   animation-iteration-count: infinite;
 }
 
 @keyframes tomato-rotate {
-  0% {
-    transform: rotate(0);
-  }
-  25% {
-    transform: rotate(90deg);
-  }
-  50% {
-    transform: rotate(180deg);
-  }
-  75% {
-    transform: rotate(360deg);
-  }
+
   100% {
-    transform: rotate(0deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -387,25 +376,14 @@ body {
 .tomato-logo {
   position: relative;
   animation-name: tomato-rotate;
-  animation-duration: 4s;
+  animation-duration: 1.5s;
   animation-iteration-count: infinite;
 }
 
 @keyframes tomato-rotate {
-  0% {
-    transform: rotate(0);
-  }
-  25% {
-    transform: rotate(90deg);
-  }
-  50% {
-    transform: rotate(180deg);
-  }
-  75% {
-    transform: rotate(360deg);
-  }
+
   100% {
-    transform: rotate(0deg);
+    transform: rotate(360deg);
   }
 }
 
