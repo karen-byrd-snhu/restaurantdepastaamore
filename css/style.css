@@ -206,7 +206,6 @@ body {
 }
 
 @keyframes tomato-rotate {
-
   100% {
     transform: rotate(360deg);
   }
@@ -381,7 +380,6 @@ body {
 }
 
 @keyframes tomato-rotate {
-
   100% {
     transform: rotate(360deg);
   }
