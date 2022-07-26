@@ -147,7 +147,10 @@ body {
   margin-bottom: 5rem;
 }
 
+/* *********** */
 /* index.html  */
+/* *********** */
+
 .hours {
   background-color: #d8c6b8;
   text-align: center;
@@ -200,7 +203,10 @@ body {
   transform: rotate(-45deg);
 }
 
+/* ********** */
 /* about.html */
+/* ********** */
+
 #about {
   position: relative;
   width: 80%;
@@ -300,7 +306,10 @@ body {
   margin-bottom: 0.75rem;
 }
 
-/* footer */
+/* *********** */
+/* footer.html */
+/* *********** */
+
 #footer-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -343,7 +352,9 @@ body {
   margin-bottom: 0.5rem;
 }
 
+/* ************ */
 /* contact.html */
+/* ************ */
 
 .email-form {
   display: grid;
@@ -429,3 +440,72 @@ input[name="buttons"] {
   bottom: 2rem;
   left: 5rem;
 }
+
+/* ******** */
+/* faq.html */
+/* ******** */
+
+.question-container {
+  background-color: #d8c6b8;
+  font-family: "KlinicSlab-Book";
+  font-size: 1.25rem;
+  width: 60%;
+  margin: 2rem auto;
+  padding: 2rem;
+  color: #543136;
+}
+
+.restaurant-title,
+.menu-title {
+  font-family: "KlinicSlab-Bold";
+  font-size: 2.3rem;
+  color: #0b9446;
+  text-align: center;
+}
+
+.question-container li {
+  margin-bottom: 1rem;
+}
+
+.restaurant-container,
+.menu-container {
+  width: 50%;
+  padding: 2rem;
+  margin: 0.25rem auto;
+}
+
+.dropdown-event {
+  position: relative;
+  display: inline-block;
+}
+
+.events-dropdown,
+.holiday-dropdown,
+.cater-dropdown,
+.discount-dropdown,
+.celebration-dropdown,
+.allergies-dropdown,
+.family-dropdown,
+.gluten-dropdown {
+  display: none;
+  position: absolute;
+  color: #d8c6b8;
+  background-color: #543136;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(207, 28, 68, 0.2);
+  z-index: 1;
+}
+
+.dropdown-event:hover .events-dropdown,
+.dropdown-event:hover .holiday-dropdown,
+.dropdown-event:hover .cater-dropdown,
+.dropdown-event:hover .discount-dropdown,
+.dropdown-event:hover .celebration-dropdown,
+.dropdown-event:hover .allergies-dropdown,
+.dropdown-event:hover .family-dropdown,
+.dropdown-event:hover .gluten-dropdown {
+  display: block;
+  padding: 2rem;
+}
+
+

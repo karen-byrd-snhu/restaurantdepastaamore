@@ -18,13 +18,16 @@
     <!-- makes sure the viewing windows match the devices used - ex phone, tablet, or desktop -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/9c30a36023.js" crossorigin="anonymous"></script>
+
     <!-- favicon -->
     <link rel="icon" type="image/icon" href="./images/spaghetti-favcon.png" sizes="32x32">
 
     <!-- css stylesheets -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-   
+
 
     <!-- page title -->
     <title>Pasta Amorè-FAQ</title>
@@ -52,43 +55,113 @@
     </header>
 
     <!-- faq of restaurants -->
-    <section class="restaurant-info">
-        <h1 class="restaurant-title">Restaurant Questions</h1>
-        <ul class="restaurant-container">
-            <li class="restaurant-questions">What are the hours of Operation?</li>
-            <li class="restaurant-questions">Are there Holiday Hours?</li>
-            <li class="restaurant-questions">Does Pasta Amoré of catering?</li>
-            <li class="restaurant-questions">Does Pasta Amoré provide military and first responder discounts?</li>
-            <li class="restaurant-questions">Are there free celebration discounts offered?</li>
-        </ul>
-    </section>
+    <main class="question-container">
+        <section class="restaurant-info">
+            <h1 class="restaurant-title">Restaurant Questions</h1>
+            <ul class="restaurant-container">
+                <div class="dropdown-event">
+                    <li class="restaurant-questions">Does Pasta Amoré have special events? <span class="arrow"><i
+                                class="fa-thin fa-caret-down"></i></span></li>
+                    <div class="events-dropdown">
+                        <p class="event-answer">If we have the event available on our calendar, we would be happy to
+                            help
+                            you celebrate your special event.</p>
+                    </div>
+                </div>
+                <div class="dropdown-event">
+                    <li class="restaurant-questions">Are there Holiday Hours? <span class="arrow"><i
+                                class="fa-thin fa-caret-down"></i></span></li>
+                    <div class="holiday-dropdown">
+                        <p class="holiday-answer">We are close on Christmas Eve night and all day Christmas. All other
+                            holidays are per restaurant choice, so please be sure to call before heading that direction.
+                        </p>
+                    </div>
+                </div>
+                <br />
+                <div class="dropdown-event">
+                    <li class="restaurant-questions">Does Pasta Amoré cater? <span class="arrow"><i
+                                class="fa-thin fa-caret-down"></i></span></li>
+                    <div class="cater-dropdown">
+                        <p class="cater-answer">
+                            We will be happy to cater and event. There will be transport and
+                            staffing charges included with the meal price. Please contact the GM or Chef at either
+                            location.
+                        </p>
+                    </div>
+                </div>
+                <div class="dropdown-event">
+                    <li class="restaurant-questions">Does Pasta Amoré provide military and first responder discounts?
+                        <span class="arrow"><i class="fa-thin fa-caret-down"></i></span>
+                    </li>
+                    <div class="discount-dropdown">
+                        <p class="discount-answer">
+                            We provide 50% off to the first responders/military in uniforms. If they come in off duty we
+                            will
+                            provide 20% to the active member and 10% to family members.
+                        </p>
+                    </div>
+                </div>
+                <div class="dropdown-event">
+                    <li class="restaurant-questions">Are there celebration discounts offered? <span class="arrow"><i
+                                class="fa-thin fa-caret-down"></i></span></li>
+                    <div class="celebration-dropdown">
+                        <p class="celebration-answer">Although we don't provide a discount for any celebration, we will
+                            be happy to give the guest of honor a custom dessert.</p>
+                    </div>
+                </div>
+            </ul>
+        </section>
 
-    <!-- faq of menu -->
-    <section class="menu-info">
-        <h1 class="menu-title">Menu Questions</h1>
-        <ul class="menu-container">
-            <li class="menu-questions">What steps does Pasta Amoré take for food allergies?</li>
-            <li class="menu-questions">Offer family meals? What is offered?</li>
-            <li class="menu-questions">Do you have gluten free menu items?</li>
-        </ul>
-    </section>
+        <!-- faq of menu -->
+
+        <section class="menu-info">
+            <h1 class="menu-title">Menu Questions</h1>
+            <ul class="menu-container">
+                <div class="dropdown-event">
+                    <li class="menu-questions">What steps does Pasta Amoré take for food allergies? <span
+                            class="arrow"><i class="fa-thin fa-caret-down"></i></span></li>
+                    <div class="allergies-dropdown">
+                        <p class="allergies-answer">With the exception of a few dishes (lasagna, cannoli, soups, gelato,
+                            etc) that need to be prepared in advanced. We prepare everything homemade. Our pasta is made
+                            every morning along with the sauces. If you have an allergy we will be more than happy to
+                            make it how you can enjoy the meal.</p>
+                    </div>
+                </div>
+                <div class="dropdown-event">
+                    <li class="menu-questions">Offer family meals? What is offered? <span class="arrow"><i
+                                class="fa-thin fa-caret-down"></i></span></li>
+                    <div class="family-dropdown">
+                        <p class="family-answer">Pasta Amoré does not provide a family style meal. Everything is per
+                            person, but the meals are large so it is fine to split the items.</p>
+                    </div>
+                </div>
+                <div class="dropdown-event">
+                    <li class="menu-questions">Do you have gluten free menu items? <span class="arrow"><i
+                                class="fa-thin fa-caret-down"></i></span></li>
+                                <div class="gluten-dropdown">
+                                    <p class="gluten-answer">There are plenty of items that are gluten free on our menu.  We make pasta every morning and include two types of gluten free. Just ask your server and they will let you know which ones are on the menu for that day.</p>
+                                </div>
+                </div>
+            </ul>
+        </section>
+    </main>
 
 
-<!-- footer for who creating the website -->
-<footer id="footer-container">
-    <div class="social">
-        <a href="http://www.facebook.com"><img src="./images/facebook.svg" alt="facebook logo" class="fb"
-                width="40"></a>
-        <a href="http://www.instagram.com"><img src="./images/instagram.svg" alt="instagram logo" class="insta"
-                width="40"></a>
-    </div>
+    <!-- footer for who creating the website -->
+    <footer id="footer-container">
+        <div class="social">
+            <a href="http://www.facebook.com"><img src="./images/facebook.svg" alt="facebook logo" class="fb"
+                    width="40"></a>
+            <a href="http://www.instagram.com"><img src="./images/instagram.svg" alt="instagram logo" class="insta"
+                    width="40"></a>
+        </div>
 
-    <div class="links">
-        <h6 class="contact"><a href="./contact.html">contact us</a></h6>
-        <h6 class="email"> <a href="./email_signup.com">email sign-up</a></h6>
-    </div>
+        <div class="links">
+            <h6 class="contact"><a href="./contact.html">contact us</a></h6>
+            <h6 class="email"> <a href="./email_signup.com">email sign-up</a></h6>
+        </div>
 
-</footer>
+    </footer>
 
 </body>
 
