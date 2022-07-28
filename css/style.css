@@ -190,18 +190,18 @@ body {
 }
 
 .ptown {
-  margin-bottom: 3rem;
+  margin-bottom: 7rem;
 }
 
 .svtown {
   border-top: 2px solid #cf1c44;
-  padding-top: 3rem;
+  padding-top: 7rem;
 }
 
 .tomato {
   position: relative;
-  bottom: 15rem;
-  left: 75rem;
+  bottom: 30rem;
+  left: 35rem;
   width: 15%;
   animation-name: tomato-rotate;
   animation-duration: 1.5s;
@@ -376,6 +376,8 @@ body {
 
 .tomato-logo {
   position: relative;
+  width: 80%;
+  left: 2rem;
   animation-name: tomato-rotate;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
@@ -532,9 +534,11 @@ input[name="buttons"] {
 .entree,
 .dessert {
   background-color: #d8c6b8;
-  width: 50%;
+  width: 60%;
   margin: 2rem auto;
   padding: .5rem;
+
+
 }
 
 .title {
@@ -545,4 +549,82 @@ input[name="buttons"] {
   color: #5e1211;
 }
 
+.container-appetizer,
+.container-salad,
+.container-soup,
+.container-entree,
+.container-dessert {
+ display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 
+.appetizer-image-description,
+.salad-image-description,
+.soup-image-description,
+.entree-image-description,
+.dessert-image-description {
+  position: relative;
+  width: 100%;
+
+}
+
+.app-img,
+.salad-img,
+.soup-img,
+.entree-img {
+  display: block;
+  width: 100%;
+}
+
+.dessert-img {
+  display: block;
+}
+
+.appetizer-overlay,
+.salad-overlay,
+.soup-overlay,
+.entree-overlay,
+.dessert-overlay {
+  position: absolute;
+  top:0;
+  width: 100%;
+  height:100%;
+  background: rgba(85, 50, 55, .8);
+  color:#d8c6b8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.appetizer-overlay:hover,
+.salad-overlay:hover,
+.soup-overlay:hover,
+.entree-overlay:hover,
+.dessert-overlay:hover {
+  opacity: 1;
+}
+
+.appetizer-items,
+.salad-items,
+.soup-items,
+.entree-items,
+.dessert-items {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.appetizer-description,
+.salad-description,
+.soup-description,
+.entree-description,
+.dessert-description {
+  font-size: 1.25rem;
+  text-align: center;
+}
