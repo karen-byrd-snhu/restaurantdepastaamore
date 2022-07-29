@@ -132,11 +132,12 @@ body {
 }
 
 .logo {
-  height: 9rem;
+  height: 8rem;
   margin-left: 1rem;
   z-index: 999;
   background-color: #d8c6b8;
   padding: 1.3rem;
+  box-shadow: 3px 3px 4px #5e1211;
 }
 
 /* Title */
