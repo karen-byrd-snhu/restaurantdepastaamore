@@ -35,3 +35,11 @@ function svshowSlides() {
   slides[slideIndex - 1].style.display = "block";
   setTimeout(svshowSlides, 2000);
 }
+
+// function on() {
+//   document.getElementsByClassName("dropdown-event").style.display = "block";
+// }
+
+// function off() {
+//   document.getElementsByClassName("dropdown-event").style.display = "none";
+// }

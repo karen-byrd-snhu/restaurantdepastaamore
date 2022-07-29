@@ -98,11 +98,11 @@ body {
   background-image: url("../images/typesOfPasta.jpeg");
   background-size: cover;
   position: absolute;
-  top: 0px;
+  top: -140px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .navigation {
@@ -122,10 +122,9 @@ body {
 }
 
 .navigation-items a {
-  font-family: "KlinicSlab-Bold";
-  color: #0b9446;
+  font-family: "KlinicSlab-Medium";
+  color: #543136;
   text-decoration: none;
-  text-shadow: 2px 3px 4px black;
 }
 
 .navigation-items a:hover {
@@ -136,6 +135,8 @@ body {
   height: 9rem;
   margin-left: 1rem;
   z-index: 999;
+  background-color: #d8c6b8;
+  padding: 1.3rem;
 }
 
 /* Title */
@@ -173,9 +174,8 @@ body {
   color: #543136;
   top: -2rem;
   background-color: #d8c6b8;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding: 5px;
-  /* bottom: 8px; */
   width: 100%;
   text-align: center;
 }
@@ -505,14 +505,7 @@ input[name="buttons"] {
   display: inline-block;
 }
 
-.events-dropdown,
-.holiday-dropdown,
-.cater-dropdown,
-.discount-dropdown,
-.celebration-dropdown,
-.allergies-dropdown,
-.family-dropdown,
-.gluten-dropdown {
+.dropdown {
   display: none;
   position: absolute;
   color: #d8c6b8;
@@ -522,14 +515,7 @@ input[name="buttons"] {
   z-index: 1;
 }
 
-.dropdown-event:hover .events-dropdown,
-.dropdown-event:hover .holiday-dropdown,
-.dropdown-event:hover .cater-dropdown,
-.dropdown-event:hover .discount-dropdown,
-.dropdown-event:hover .celebration-dropdown,
-.dropdown-event:hover .allergies-dropdown,
-.dropdown-event:hover .family-dropdown,
-.dropdown-event:hover .gluten-dropdown {
+.dropdown-event:hover .dropdown {
   display: block;
   padding: 2rem;
 }
@@ -550,11 +536,12 @@ input[name="buttons"] {
 }
 
 .title {
-  font-family: "KlinicSlab-Bold";
+  font-family: "KlinicSlab-BoldIt";
   font-size: 3rem;
   text-align: center;
   text-transform: uppercase;
   color: #5e1211;
+  text-decoration: underline;
 }
 
 .container-appetizer,
@@ -636,3 +623,120 @@ input[name="buttons"] {
   font-size: 1.25rem;
   text-align: center;
 }
+
+/* ********* */
+/* news.html */
+/* ********* */
+
+.covid {
+  background-color: #d8c6b8;
+  width: 60%;
+  margin: auto;
+  padding: 2rem;
+  letter-spacing: .1rem;
+  line-height: 125%;
+}
+
+.covid-news {
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.care-objective {
+  font-size: 1.15rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.covid-care {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.covid-care-items {
+  font-weight: 800;
+}
+
+.covid-care-par {
+  width: 90%;
+  text-indent: 2%;
+  text-align: justify;
+  text-justify: inter-word;
+  margin: auto;
+}
+
+
+.celebration,
+.learn-to-cook {
+  background-color: #0b9446;
+  width: 60%;
+  margin: auto;
+  padding: 2rem;
+  margin-top: 2.5rem;
+}
+
+.anniversary {
+  font-weight: bolder;
+  font-size: 3rem;
+  text-align: center;
+  color:#cf1c44;
+  letter-spacing: 1.25rem;
+}
+
+.fa-champagne-glasses {
+  transform: rotate(20deg);
+  color:#d8c6b8;
+}
+
+.celebration-about {
+  text-align: center;
+  width: 60%;
+  margin: 2rem auto;
+  font-weight: bolder;
+  font-size: 1.60rem;
+}
+
+#celebration-day {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #543136;
+}
+
+#celebration-event {
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+.learn-to-cook {
+  background-color: #d8c6b8;
+  margin-bottom: 2rem;
+}
+
+
+.cook {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 2rem;
+  letter-spacing: .5rem;
+}
+
+.cook-event {
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.20rem;
+}
+
+.cook-time {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+
+
+
