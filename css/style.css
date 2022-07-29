@@ -255,6 +255,7 @@ body {
   position: absolute;
   padding-bottom: 2rem;
   font-size: 3rem;
+  text-align: center;
   z-index: 999;
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
