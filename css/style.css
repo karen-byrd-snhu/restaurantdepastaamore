@@ -94,7 +94,7 @@ body {
 }
 
 .nav::before {
-  content: "";
+  content: "spoons of different types of pasta";
   background-image: url("../images/typesOfPasta.jpeg");
   background-size: cover;
   position: absolute;
@@ -238,7 +238,7 @@ body {
 }
 
 #about::before {
-  content: "";
+  content: "friends gathered around italian meal";
   background-image: url(../images/groupEating.jpeg);
   background-size: cover;
   position: absolute;
