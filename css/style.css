@@ -173,7 +173,6 @@ body {
   opacity: 0;
   visibility: hidden;
   height: 0;
-  transition: all 0.5s;
 }
 
 .dropdown-list:last-child {
@@ -207,29 +206,55 @@ body {
 /* index.html  */
 /* *********** */
 
-.pslideshow-container,
-.svslideshow-container {
+.slides1,
+.slides2 {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+.slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
-  margin-bottom: 2rem;
 }
 
-.pslide,
-.svslide {
-  display: none;
-}
-
-.pday,
-.svday {
+.prev,
+.next {
+  cursor: pointer;
   position: absolute;
-  color: #543136;
-  top: -2rem;
-  background-color: #d8c6b8;
-  font-size: 1.25rem;
-  padding: 5px;
+  padding: 16px;
+  color: #0b9446;
+  font-weight: bold;
+  transition: 0.6s ease;
+  user-select: none;
+  font-size: 2rem;
+}
+
+.next {
+  top: 36rem;
+  right: 40rem;
+}
+
+.prev {
+  top: 36rem;
+  left: 40rem;
+}
+
+.prev:hover,
+.next:hover {
+  color: #cf1c44;
+}
+
+.text {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  padding: 8px 8px;
+
   width: 100%;
-  text-align: center;
+  text-shadow: 1px 1px 1px #cf1c44;
 }
 
 .hours {
@@ -241,6 +266,10 @@ body {
   padding-bottom: 2rem;
   margin: 0 auto;
   width: 75%;
+}
+
+.ptown-title {
+  margin-top: 3rem;
 }
 
 .ptown-title,
@@ -267,13 +296,10 @@ body {
   text-transform: uppercase;
 }
 
-.ptown {
-  margin-bottom: 6rem;
-}
-
-.svtown {
+.sv-container {
   border-top: 2px solid #cf1c44;
-  padding-top: 4rem;
+  padding-top: 3rem;
+  margin-top: 1.5rem;
 }
 
 /* ********** */

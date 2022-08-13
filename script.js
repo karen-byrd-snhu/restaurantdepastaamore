@@ -1,38 +1,20 @@
-let slideIndex = 0;
-pshowSlides();
-svshowSlides();
+let slideIndex = [1, 1];
+let slideId = ["slides1", "slides2"];
+showSlides(1, 0);
+showSlides(1, 1);
 
-function pshowSlides() {
-  let i;
-  let slides = document.getElementsByClassName("pslide");
-
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-
-  if (slideIndex > slides.length) {
-    slideIndex = 1;
-  }
-
-  slides[slideIndex - 1].style.display = "block";
-  setTimeout(pshowSlides, 2000);
+function plusSlides(n, no) {
+  showSlides((slideIndex[no] += n), no);
 }
 
-function svshowSlides() {
+function showSlides(n, no) {
   let i;
-  let slides = document.getElementsByClassName("svslide");
-
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length;
   }
-  slideIndex++;
-
-  if (slideIndex > slides.length) {
-    slideIndex = 1;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
   }
-
-  slides[slideIndex - 1].style.display = "block";
-  setTimeout(svshowSlides, 2000);
+  x[slideIndex[no] - 1].style.display = "block";
 }
-
