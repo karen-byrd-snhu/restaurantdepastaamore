@@ -1,20 +1,28 @@
-let slideIndex = [1, 1];
-let slideId = ["slides1", "slides2"];
-showSlides(1, 0);
-showSlides(1, 1);
+let slideIndex = 1;
+showSlides(slideIndex);
 
-function plusSlides(n, no) {
-  showSlides((slideIndex[no] += n), no);
+// Next/previous controls
+function plusSlides(n) {
+  showSlides((slideIndex += n));
 }
 
-function showSlides(n, no) {
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides((slideIndex = n));
+}
+
+function showSlides(n) {
   let i;
-  let x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}
-  if (n < 1) {slideIndex[no] = x.length;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {
+    slideIndex = 1;
   }
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+  if (n < 1) {
+    slideIndex = slides.length;
   }
-  x[slideIndex[no] - 1].style.display = "block";
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex - 1].style.display = "block";
 }
