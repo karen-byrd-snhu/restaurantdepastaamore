@@ -133,6 +133,7 @@ body {
 }
 
 .logo {
+  width: 20%;
   height: 8rem;
   margin-left: 1rem;
   z-index: 999;
