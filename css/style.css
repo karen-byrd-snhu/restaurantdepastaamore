@@ -220,7 +220,7 @@ img {
 }
 
 .slideshow-container {
-  max-width: 62.5rem;
+  max-width: 30rem;
   position: relative;
   margin: auto;
 }
@@ -237,13 +237,13 @@ img {
 }
 
 .next {
-  top: 20rem;
-  right: 2rem;
+  top: 12rem;
+  right: 1rem;
 }
 
 .prev {
-  top: 20rem;
-  left: 2rem;
+  top: 12rem;
+  left: 1rem;
 }
 
 .prev:hover,
